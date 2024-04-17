@@ -1,0 +1,25 @@
+{
+    "name": "kristinashtainmets/images",
+    "description": "Module for working with images ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Кристина",
+            "email": "kristina.shtaynmets@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Images\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+
+}
